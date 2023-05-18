@@ -5,67 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Virtual Keyboard</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Bluebox</title>
 </head>
 <body>
+    <div class="container">
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round" onclick="myFunction()"></span>
+        </label>
+    </div>
+
     <textarea class="textarea" placeholder="This is Bluebox, an online virtual keyboard!"></textarea>
     <section>
         <div class="keyboard">
             <div class="keyboard-keys">
                 <div class="row">
-                    <button>1</button>
-                    <button>2</button>
-                    <button>3</button>
-                    <button>4</button>
-                    <button>5</button>
-                    <button>6</button>
-                    <button>7</button>
-                    <button>8</button>
-                    <button>9</button>
-                    <button>0</button>
-                    <button class="delete">delete</button>
+                    <button clas="button">1</button>
+                    <button class="button">2</button>
+                    <button class="button"> 3</button>
+                    <button class="button">4</button>
+                    <button class="button">5</button>
+                    <button class="button">6</button>
+                    <button class="button">7</button>
+                    <button class="button">8</button>
+                    <button class="button">9</button>
+                    <button class="button">0</button>
+                    <button class="delete"><span class="material-symbols-outlined">keyboard_backspace</span></button>
                 </div>
                 <div class="row">
                     <button class="tab">Tab</button>
-                    <button>Q</button>
-                    <button>W</button>
-                    <button>E</button>
-                    <button>R</button>
-                    <button>T</button>
-                    <button>Y</button>
-                    <button>U</button>
-                    <button>I</button>
-                    <button>O</button>
-                    <button>P</button>
+                    <button class="button">Q</button>
+                    <button class="button">W</button>
+                    <button class="button">E</button>
+                    <button class="button">R</button>
+                    <button class="button">T</button>
+                    <button class="button">Y</button>
+                    <button class="button">U</button>
+                    <button class="button">I</button>
+                    <button class="button">O</button>
+                    <button class="button">P</button>
                 </div>
                 <div class="row">
-                    <button class="caps">Caps</button>
-                    <button>A</button>
-                    <button>S</button>
-                    <button>D</button>
-                    <button>F</button>
-                    <button>G</button>
-                    <button>H</button>
-                    <button>J</button>
-                    <button>K</button>
-                    <button>L</button>
-                    <button class="enter">Enter</button>
+                    <button class="caps"><span class="material-symbols-outlined">keyboard_capslock</span></button>
+                    <button class="button">A</button>
+                    <button class="button">S</button>
+                    <button class="button">D</button>
+                    <button class="button">F</button>
+                    <button class="button">G</button>
+                    <button class="button">H</button>
+                    <button class="button">J</button>
+                    <button class="button">K</button>
+                    <button class="button">L</button>
+                    <button class="enter"><span class="material-symbols-outlined">keyboard_return</span></button>
                 </div>
                 <div class="row">
-                    <button>Z</button>
-                    <button>X</button>
-                    <button>C</button>
-                    <button>V</button>
-                    <button>B</button>
-                    <button>N</button>
-                    <button>M</button>
-                    <button>,</button>
-                    <button>.</button>
-                    <button>?</button>
+                    <button class="button">Z</button>
+                    <button class="button">X</button>
+                    <button class="button">C</button>
+                    <button class="button">V</button>
+                    <button class="button">B</button>
+                    <button class="button">N</button>
+                    <button class="button">M</button>
+                    <button class="button">,</button>
+                    <button class="button">.</button>
+                    <button class="button">?</button>
                     <button class="shift">shift</button>
                 </div>
                 <div class="row">
-                    <button class="space">space</button>
+                    <button class="space"><span class="material-symbols-outlined">space_bar</span></button>
                 </div>
             </div>
         </div>
